@@ -10,53 +10,88 @@
 	</head>
 
 	<body>
+		<header>
+			<nav class="navbar navbar-default">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#div-menu" aria-expanded="false">
+				        	<span class="sr-only">Toggle navigation</span>
+				        	<span class="icon-bar"></span>
+				        	<span class="icon-bar"></span>
+				        	<span class="icon-bar"></span>
+				      	</button>
+				    	<a class="navbar-brand" href="#">TopCasaFina Arquitetura</a>
+					</div>
+					<div class="collapse navbar-collapse" id="div-menu">
+						<ul class="nav navbar-nav">
+							<li><a href="#sobre-nos">Sobre Nós</a></li>
+							<li><a href="#projetos">Nossos Projetos</a></li>
+							<li><a href="#depoimentos">Depoimentos</a></li>
+							<li><a href="#video">Vídeo Institucional</a></li>
+							<li><a href="#contato">Contato</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
 
-		<section class="container">
+			<div class="container div-banne-wrapper">
+				<div class="div-banner">
+					<h1>TopCasaFina Arquitetura</h1>
+					<p>Projetando a casa dos sonhos desde 2000 A.C.</p>
+					<button type="submit" class="btn btn-primary btn-lg">Contate-nos agora</button>
+				</div>
+			</div>
+
+		</header>
+
+		<section id="sobre-nos" class="container">
 			<h2>Sobre Nós</h2>
-			<img class="img-responsive" src="img/empresa.jpg">
-			<div class="panel-group" id="paineis-sobre">
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<h3 class="panel-title" data-toggle="collapse" data-target="#primeiro-paragrafo" data-parent="#paineis-sobre">
-							Desde 1935
-						</h3>	
-					</div>					
-					<div  id="primeiro-paragrafo" class="collapse in">
-						<div class="panel-body">
-					    	<p>
-					    		A TopCasa Fina Arquitetura está no mercado desde... 
-				    		</p> 
-				    	</div>
+			<div class="row">
+				<img class="img-responsive col-sm-6" src="img/empresa.jpg">
+				<div class="panel-group col-sm-6" id="paineis-sobre">
+					<div class="panel panel-default ">
+						<div class="panel-heading">
+							<h3 class="panel-title" data-toggle="collapse" data-target="#primeiro-paragrafo" data-parent="#paineis-sobre">
+								Desde 1935
+							</h3>	
+						</div>					
+						<div  id="primeiro-paragrafo" class="collapse in">
+							<div class="panel-body">
+						    	<p>
+						    		A TopCasa Fina Arquitetura está no mercado desde... 
+					    		</p> 
+					    	</div>
+					    </div>
+					</div>
+				    <div class="panel panel-default">
+				    	<div class="panel-heading">
+							<h3 class="panel-title" data-toggle="collapse" data-target="#segundo-paragrafo" data-parent="#paineis-sobre">
+								Desde 1935
+							</h3>
+						</div>
+						<div id="segundo-paragrafo" class="collapse">
+							<div class="panel-body">
+						    	<p>
+						    		A TopCasa Fina Arquitetura está no mercado desde... 
+					    		</p> 
+					    	</div>
+					    </div>
+				    </div>
+				    <div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title" data-toggle="collapse" data-target="#terceiro-paragrafo" data-parent="#paineis-sobre">
+								Desde 1935
+							</h3>
+						</div>
+						<div id="terceiro-paragrafo" class="collapse">
+							<div class="panel-body">
+						    	<p>
+						    		A TopCasa Fina Arquitetura está no mercado desde... 
+					    		</p>
+					    	</div>
+						</div>
 				    </div>
 				</div>
-			    <div class="panel panel-default">
-			    	<div class="panel-heading">
-						<h3 class="panel-title" data-toggle="collapse" data-target="#segundo-paragrafo" data-parent="#paineis-sobre">
-							Desde 1935
-						</h3>
-					</div>
-					<div id="segundo-paragrafo" class="collapse">
-						<div class="panel-body">
-					    	<p>
-					    		A TopCasa Fina Arquitetura está no mercado desde... 
-				    		</p> 
-				    	</div>
-				    </div>
-			    </div>
-			    <div class="panel panel-default">
-					<div class="panel-heading">
-						<h3 class="panel-title" data-toggle="collapse" data-target="#terceiro-paragrafo" data-parent="#paineis-sobre">
-							Desde 1935
-						</h3>
-					</div>
-					<div id="terceiro-paragrafo" class="collapse">
-						<div class="panel-body">
-					    	<p>
-					    		A TopCasa Fina Arquitetura está no mercado desde... 
-				    		</p>
-				    	</div>
-					</div>
-			    </div>
 			</div>
 	   </section>
 
@@ -70,52 +105,64 @@
 
 	   </div>
 
-	   <section class="container">
+	   <section id='projetos' class="container">
 	   		<h2>Nossos Projetos</h2>
-	   		<figure class="thumbnail">	   			
-	   			<img src="img/projetos/casa-castelo.png" alt="Foto da Casa Castelo" class="img-responsive" >
-	   			<figcaption class="caption">
-	   				<h3>Casa Castelo</h3>
-	   				<p>A Casa Castelo é o último lançamento da TopCasaFina Arquitetura, construída para um monge.</p>
-	   			</figcaption>
-	   		</figure>
+	   		<div class="row">
+	   			<div class="col-sm-6 col-md-4 col-lg-3">
+			   		<figure class="thumbnail">	   			
+			   			<img src="img/projetos/casa-castelo.png" alt="Foto da Casa Castelo" class="img-responsive" >
+			   			<figcaption class="caption">
+			   				<h3>Casa Castelo</h3>
+			   				<p>A Casa Castelo é o último lançamento da TopCasaFina, construída para um monge.</p>
+			   			</figcaption>
+			   		</figure>
+			   	</div>
 
-	   		<figure class="thumbnail">	   			
-	   			<img src="img/projetos/casa-lago.png" alt="Foto da Casa Lago" class="img-responsive" >
-	   			<figcaption class="caption">
-	   				<h3>Casa Lago</h3>
-	   				<p>A Casa do lago foi lar de inúmeras pessoas que conheciam o presidente da época.</p>
-	   			</figcaption>
-	   		</figure>
+			   	<div class="col-sm-6 col-md-4 col-lg-3">
+			   		<figure class="thumbnail">	   			
+			   			<img src="img/projetos/casa-lago.png" alt="Foto da Casa Lago" class="img-responsive" >
+			   			<figcaption class="caption">
+			   				<h3>Casa Lago</h3>
+			   				<p>A Casa do lago foi lar de inúmeras pessoas que conheciam o presidente da época.</p>
+			   			</figcaption>
+			   		</figure>
+		   		</div>
 
-	   		<figure class="thumbnail">	   			
-	   			<img src="img/projetos/mercado-marapira.png" alt="Foto do Mercado Mapira" class="img-responsive" >
-	   			<figcaption class="caption">
-	   				<h3>Mercado Marapira</h3>
-	   				<p>O Mercado Marapira foi projeto nos mínimos detalhes na arquitetura baseada em frutas.</p>
-	   			</figcaption>
-	   		</figure>
+				<div class="col-sm-6 col-md-4 col-lg-3">
+			   		<figure class="thumbnail">	   			
+			   			<img src="img/projetos/mercado-marapira.png" alt="Foto do Mercado Mapira" class="img-responsive" >
+			   			<figcaption class="caption">
+			   				<h3>Mercado Marapira</h3>
+			   				<p>O Mercado Marapira foi projeto nos mínimos detalhes na arquitetura baseada em frutas.</p>
+			   			</figcaption>
+			   		</figure>
+		   		</div>
 
-	   		<figure class="thumbnail">	   			
-	   			<img src="img/projetos/palacio-dionisio.png" alt="Foto do Palácio Dionísio" class="img-responsive" >
-	   			<figcaption class="caption">
-	   				<h3>Palácio Dionísio</h3>
-	   				<p>O Palácio Dionísio foi eleito pela revista "Grandes Palácios" o Palácio mais lindo do mundo.</p>
-	   			</figcaption>
-	   		</figure>
+		   		<div class="col-sm-6 col-md-4 col-lg-3">
+			   		<figure class="thumbnail">	   			
+			   			<img src="img/projetos/palacio-dionisio.png" alt="Foto do Palácio Dionísio" class="img-responsive" >
+			   			<figcaption class="caption">
+			   				<h3>Palácio Dionísio</h3>
+			   				<p>O Palácio Dionísio foi eleito pela revista "Grandes Palácios" o Palácio mais lindo do mundo.</p>
+			   			</figcaption>
+			   		</figure>
+		   		</div>
 
-	   		<figure class="thumbnail">	   			
-	   			<img src="img/projetos/residencia-ludi.png" alt="Foto da Residência Ludi" class="img-responsive" >
-	   			<figcaption class="caption">
-	   				<h3>Residência Ludi</h3>
-	   				<p>A Residência Ludi foi projetada para ser eleita a mais bela casa de São Paulo pela revista "Housing".</p>
-	   			</figcaption>
-	   		</figure>
+		   		<div class="col-sm-6 col-md-4 col-lg-3">
+			   		<figure class="thumbnail">	   			
+			   			<img src="img/projetos/residencia-ludi.png" alt="Foto da Residência Ludi" class="img-responsive" >
+			   			<figcaption class="caption">
+			   				<h3>Residência Ludi</h3>
+			   				<p>A Residência Ludi foi projetada para ser eleita a mais bela casa de São Paulo pela revista "Housing".</p>
+			   			</figcaption>
+			   		</figure>
+		   		</div>
+		   	</div>
 	   </section>
 
-	   <section>
+	   <section id="depoimentos">
 	   	
-	   	   <h3 class="container titulo-depoimemtos">Depoimentos de Clientes</h3>
+	   	   <h3 class="titulo-depoimemtos">Depoimentos de Clientes</h3>
 
 		   <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 			  <!-- Indicators -->
@@ -163,9 +210,70 @@
 
 		</section>
 
+		<section id="video" class="container">
+			
+			<h2>Vídeo Institucional</h2>
+
+			<div class="embed-responsive embed-responsive-16by9">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/DT52uZBIEt0" frameborder="0" allowfullscreen></iframe>1
+			</div>
+
+		</section>
+
+		<section id="contato" class="container">
+			<h2>Contato</h2>
+			<h3>Entre em contato conosco</h3>
+			<form>
+				<div class="form-group">
+					<label for="contato-nome">Nome:</label>
+					<input id="contato-nome" type="text" class="form-control" placeholder="Seu nome">
+				</div>
+				<div class="form-group">
+					<label for="contato-email">Email:</label>
+					<div class="input-group">
+						<div class="input-group-addon">@</div>
+						<input id="contato-email" type="email" class="form-control" placeholder="Seu email">
+					</div>
+					
+				</div>
+				<div class="grupo-radio">
+					<div class="radio">
+						<label>
+							<input type="radio" name="tipo-pessoa" checked>
+							Pessoa Física
+						</label>
+					</div>
+					<div class="radio">
+						<label>
+							<input type="radio" name="tipo-pessoa">
+							Pessoa Jurídica
+						</label>
+					</div>
+				</div><!--
+				--><select class="contato-select form-control">
+					<option disabled selected>Tipo de Solicitação</option>	
+					<option>Casa</option>
+					<option>Apartamento</option>
+					<option>Mansão</option>
+				</select>
+				<button type="submit" class="btn btn-primary">Enviar</button>
+			</form>
+		</section>
+		<footer>
+			<address>
+			    <strong>TopCasaFina Arquitetura</strong><br>
+			    Rua Vergueiro, 3185, Vila Mariana<br>
+			    São Paulo, SP<br>
+			    Tel: (11) 5571-2751 ou 5083-3884
+			</address>
+			<address>
+			     Email: contato.topcasafina@alura.com.br
+			</address>
+		</footer>
 	</body>
 
 	<script src="jquery/jquery.js"></script>
 	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/navbar-animation-fix.js"></script>
 
 </html>

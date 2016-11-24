@@ -10,3 +10,82 @@
 	color: #FFF;
 	font-size: 24px;
 }
+
+.grupo-radio,
+.contato-select{
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.grupo-radio .radio:first-child {
+    margin-top: 0;
+ }
+
+ footer {
+    background-color: #333;
+    color:#FFF;
+    padding: 20px;
+    padding-bottom: 0px;
+    margin-top: 10px;
+}
+
+footer address:first-child {
+ margin-bottom: 0;
+}
+
+
+footer address:last-child {
+ padding-bottom: 20px;
+}
+
+html,
+body{
+	height: 100%;
+}
+
+header{
+	height: 100%;
+	background-image: url(../img/castelo.jpg);
+	background-size: cover;
+	background-position: top center;
+	position: relative;
+}
+
+header h1{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.div-banner{
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #FFF;
+	padding: 20px;
+	width: 80%;
+	border-radius: 8px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: .3s;
+}
+
+@media(min-width: 768px){
+	#paineis-sobre{
+		padding-top: 0px;
+	}
+}
+
+@media(min-width: 922px){
+	.div-banne-wrapper{
+		position: relative;
+		height: 100%;
+	}
+
+	.div-banner{
+		left: 0px;
+		transform: translate(0, -80%);
+		width: 50%;
+	}
+}
+
